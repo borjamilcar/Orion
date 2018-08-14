@@ -4,15 +4,22 @@ body {
 		> .content {
 			@include make-row;
 			> .logo-container {
+				@include make-xs-column(12);
+				@include make-sm-column(4);
 				@include make-md-column(3);
+
 				> .logo-container__logo {
-					@include make-md-column(10);
-					@include make-xs-column(8);
-					@include make-xs-column-offset(3);
+					width: 80%;
+					margin-left: 20%;
 				}
 			}
 			> .search-container {
+				@include make-xs-column(12);
+				@include make-sm-column(4);
 				@include make-md-column(4);
+
+				@include make-xs-column-offset(0);
+				@include make-sm-column-offset(4);
 				@include make-md-column-offset(5);
 			}
 		}

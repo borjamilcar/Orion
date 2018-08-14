@@ -8,6 +8,5 @@ $("#slider").owlCarousel({
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
-      // itemsMobile : false
- 
-})
+      // itemsMobile : false 
+});

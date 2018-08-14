@@ -10,4 +10,4 @@ $("#slider").owlCarousel({
       // itemsTablet: false,
       // itemsMobile : false
  
-});
+})
